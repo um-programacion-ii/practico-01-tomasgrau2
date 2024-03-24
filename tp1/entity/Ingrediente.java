@@ -32,4 +32,13 @@ public class Ingrediente {
     public String toString() {
         return "Ingrediente: [Nombre: " + nombre + ", Cantidad: " + cantidad + "]";
     }
+
+    public void sacar(int cantidadSolicitada) {
+        if (cantidad >= cantidadSolicitada) {
+            cantidad -= cantidadSolicitada;
+            System.out.println("Se han sacado " + cantidadSolicitada + " unidades de " + nombre);
+        } else {
+            System.out.println("No hay suficiente cantidad de " + nombre + " para sacar.");
+        }
+    }
 }
