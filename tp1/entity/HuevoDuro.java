@@ -1,8 +1,8 @@
 package entity;
 
-import Receta.Receta;
+import java.util.Arrays;
 
-public class HuevoDuro extends Receta {
+public class HuevoDuro extends Receta{
 
     public HuevoDuro() {
         super(10,

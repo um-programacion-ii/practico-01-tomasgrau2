@@ -1,8 +1,6 @@
 package entity;
 
-import Receta.Receta;
-
-public class HuevosRevueltos extends Receta {
+public class HuevosRevueltos extends Receta{
 
     public HuevosRevueltos() {
         super(5,

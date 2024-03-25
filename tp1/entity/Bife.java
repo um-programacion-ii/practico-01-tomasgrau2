@@ -1,7 +1,5 @@
 package entity;
 
-import Receta.Receta;
-
 public class Bife extends Receta {
     public Bife() {
         super(15,
